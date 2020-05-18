@@ -1,3 +1,4 @@
-# Please install following dependencies
+# Requirements
+Please download these dependencies using pip
   - request
   - lxml
