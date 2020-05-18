@@ -84,7 +84,7 @@ def torrentHandler(torrent_lst):
         apiclient.removedata(i.hash)
         print('Torrent ' + i.name + ' is removed')
     for item in torrent_lst:
-        if(os.path.isfile(item):
+        if(os.path.isfile(item)):
             apiclient.add_file(item)
         else:
             print('Torrent file ' + item + ' is not found on your machine')
