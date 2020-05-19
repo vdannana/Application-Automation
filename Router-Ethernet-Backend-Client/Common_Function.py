@@ -29,7 +29,7 @@ def command_execution(cmd_list):
             1 for Firefox
             other values open Internet Explorer 
 '''
-def openBrowser(sitelist,browsercode):
+def openBrowser(sitelist, browsercode):
     if browsercode == 0:
         if platform == "linux" or platform == "linux2":
             try:
