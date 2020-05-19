@@ -20,8 +20,17 @@ def command_execution(cmd_list):
         print(p_staus)
 
 
+'''
+    openBrowser function open web sites in a browser
+    The argumntes
+    sitelist takes list of site urls
+    browsercode takes a integer which represents a specific browser
+        ex: 0 for Chrome
+            1 for Firefox
+            other values open Internet Explorer 
+'''
 def openBrowser(sitelist,browsercode):
-    if browsercode == '0':
+    if browsercode == 0:
         if platform == "linux" or platform == "linux2":
             try:
                 c = webbrowser.get('google-chrome')
@@ -35,7 +44,7 @@ def openBrowser(sitelist,browsercode):
             else:
                 print("Chrome Browser is not installed in your windows machine or not installed at default location")
                 return(-1)
-    elif browsercode =='1':
+    elif browsercode ==1:
         if platform == "linux" or platform == "linux2":
             try:
                 c = webbrowser.get('firefox')
