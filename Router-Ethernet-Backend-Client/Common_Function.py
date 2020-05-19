@@ -5,11 +5,17 @@ import os
 import urllib.request
 from sys import platform
 
-
-def execution(cmd_list):
+'''
+command_exection funtion execute windows commands in a new command prompt window
+or a unix commands in a new tab of the terminal.
+input arugumenet cmd_list is list of command to be executed.
+'''
+def command_execution(cmd_list):
     for i in cmd_list:
-        print(i)
-        p = subprocess.Popen(["start", "cmd", "/k", i], shell=True)
+        if platform == "linux" or platform == "linux2":
+            p = subprocess.Popen(["start", "cmd", "/k", i], shell=True)
+        elif platform == "win32":
+            p = subprocess.Popen(["start", "cmd", "/k", i], shell=True)   
         p_staus = p.wait()
         print(p_staus)
 
