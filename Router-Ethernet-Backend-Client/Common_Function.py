@@ -1,9 +1,11 @@
-import Configuration as conf
-import subprocess
-import webbrowser
 import os
+import subprocess
 import urllib.request
+import webbrowser
 from sys import platform
+
+import Configuration as conf
+
 
 '''
 command_exection funtion execute windows commands in a new command prompt window

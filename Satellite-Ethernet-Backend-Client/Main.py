@@ -1,6 +1,8 @@
-import Configuration as conf
-import Common_Function as cf
 import os
+from sys import platform
+
+import Common_Function as cf
+import Configuration as conf
 
 # Creating a Directory to store Log Files
 if not os.path.exists(conf.Log_Directory):
@@ -13,7 +15,10 @@ else:
 lis = []
 for addr in conf.url_list:
     File_Name = conf.Log_Directory + "\\" + "Log_" + addr + ".txt"
-    ping_cmd = "hrping -n " + conf.ping_packets + " -T -F " + File_Name + " " + addr
+    if platform == "linux" or platform == "linux2":
+        ping_cmd = "ping " + addr + "|./Requirements/TimeStamp.sh|tee " + File_Name
+    elif platform == "win32":
+        ping_cmd = "hrping -n " + conf.ping_packets + " -T -F " + File_Name + " " + addr    
     lis.append(ping_cmd)
 
 # Pinging GW and the websites

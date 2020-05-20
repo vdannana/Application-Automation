@@ -7,7 +7,7 @@ iperf_list = ["iperf -s -i 1 -w 512K",
 vlc_url = "rtp://@239.0.0.1:5004"
 vlc_command = "vlc -vvv " + vlc_url
 web_url_list = ["https://www.youtube.com/watch?v=xT2ZOZhn5yQ"]
-browsercode = '0'
+browsercode = 0
 chrome_path = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
 mozilla_path = "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
 internetexplorer_path = "C:\\Program Files\\Internet Explorer\\iexplore.exe"

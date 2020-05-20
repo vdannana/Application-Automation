@@ -1,7 +1,8 @@
-import Configuration as conf
-import Common_Function as cf
 import os
 from sys import platform
+
+import Common_Function as cf
+import Configuration as conf
 
 # Creating a Directory to store Log Files
 if not os.path.exists(conf.Log_Directory):
