@@ -15,9 +15,9 @@ input arugumenet cmd_list is list of command to be executed.
 def command_execution(cmd_list):
     for i in cmd_list:
         if platform == "linux" or platform == "linux2":
-            p = subprocess.Popen(["start", "cmd", "/k", i], shell=True)
+            p = subprocess.Popen(["gnome-terminal --tab -- sh -c " + '"' + i + '"'], shell=True)
         elif platform == "win32":
-            p = subprocess.Popen(["gnome-terminal --tab -- sh -c " + '"' + i + '"'], shell=True)   
+            p = subprocess.Popen(["start", "cmd", "/k", i], shell=True)               
         p_staus = p.wait()
         print(p_staus)
 
