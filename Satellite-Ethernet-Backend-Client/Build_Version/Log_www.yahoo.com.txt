@@ -1,0 +1,6 @@
+PING new-fp-shed.wg1.b.yahoo.com (106.10.250.10) 56(84) bytes of data. | 2020-05-22 13:03:59.768259
+64 bytes from media-router-fp1.prod1.media.vip.sg3.yahoo.com (106.10.250.10): icmp_seq=1 ttl=56 time=47.4 ms | 2020-05-22 13:03:59.770557
+64 bytes from media-router-fp1.prod1.media.vip.sg3.yahoo.com (106.10.250.10): icmp_seq=2 ttl=56 time=47.4 ms | 2020-05-22 13:04:00.382812
+64 bytes from media-router-fp1.prod1.media.vip.sg3.yahoo.com (106.10.250.10): icmp_seq=3 ttl=56 time=1262 ms | 2020-05-22 13:04:02.600176
+64 bytes from media-router-fp1.prod1.media.vip.sg3.yahoo.com (106.10.250.10): icmp_seq=4 ttl=56 time=250 ms | 2020-05-22 13:04:02.601854
+64 bytes from media-router-fp1.prod1.media.vip.sg3.yahoo.com (106.10.250.10): icmp_seq=5 ttl=56 time=47.0 ms | 2020-05-22 13:04:03.400294

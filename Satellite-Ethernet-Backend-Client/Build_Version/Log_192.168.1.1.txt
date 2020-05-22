@@ -1,0 +1,10 @@
+PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data. | 2020-05-22 13:03:58.591701
+64 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=6.27 ms | 2020-05-22 13:03:58.593394
+64 bytes from 192.168.1.1: icmp_seq=3 ttl=64 time=3.07 ms | 2020-05-22 13:04:00.593683
+64 bytes from 192.168.1.1: icmp_seq=4 ttl=64 time=964 ms | 2020-05-22 13:04:02.555847
+64 bytes from 192.168.1.1: icmp_seq=5 ttl=64 time=4.52 ms | 2020-05-22 13:04:02.597281
+64 bytes from 192.168.1.1: icmp_seq=6 ttl=64 time=2.64 ms | 2020-05-22 13:04:03.597357
+64 bytes from 192.168.1.1: icmp_seq=7 ttl=64 time=1.66 ms | 2020-05-22 13:04:04.598476
+64 bytes from 192.168.1.1: icmp_seq=8 ttl=64 time=4.97 ms | 2020-05-22 13:04:05.603791
+64 bytes from 192.168.1.1: icmp_seq=9 ttl=64 time=1.97 ms | 2020-05-22 13:04:06.605144
+64 bytes from 192.168.1.1: icmp_seq=10 ttl=64 time=1.99 ms | 2020-05-22 13:04:07.606227

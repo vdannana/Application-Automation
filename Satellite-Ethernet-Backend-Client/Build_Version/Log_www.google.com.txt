@@ -1,0 +1,7 @@
+PING www.google.com (172.217.163.132) 56(84) bytes of data. | 2020-05-22 13:04:00.119479
+64 bytes from maa05s04-in-f4.1e100.net (172.217.163.132): icmp_seq=2 ttl=55 time=71.7 ms | 2020-05-22 13:04:00.122234
+64 bytes from maa05s04-in-f4.1e100.net (172.217.163.132): icmp_seq=3 ttl=55 time=1519 ms | 2020-05-22 13:04:02.569474
+64 bytes from maa05s04-in-f4.1e100.net (172.217.163.132): icmp_seq=4 ttl=55 time=506 ms | 2020-05-22 13:04:02.572886
+64 bytes from maa05s04-in-f4.1e100.net (172.217.163.132): icmp_seq=5 ttl=55 time=16.0 ms | 2020-05-22 13:04:03.080790
+64 bytes from maa05s04-in-f4.1e100.net (172.217.163.132): icmp_seq=6 ttl=55 time=14.8 ms | 2020-05-22 13:04:04.082435
+64 bytes from maa05s04-in-f4.1e100.net (172.217.163.132): icmp_seq=7 ttl=55 time=14.9 ms | 2020-05-22 13:04:05.083224

@@ -1,5 +1,5 @@
 Log_Directory = "Build_Version"
-url_list = ["192.168.0.1", "192.168.0.100", "www.google.com", "www.yahoo.com"]
+url_list = ["192.168.1.1", "192.168.1.2", "www.google.com", "www.yahoo.com"]
 ping_packets = "6000"
 iperf_list = ["iperf -s -i 1 -w 512K",
 "iperf -c 192.168.0.110 -i 1 -w 512K -p 5001 -P 3 -t 9999999",

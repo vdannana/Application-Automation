@@ -14,7 +14,7 @@ else:
 # Creating list of ping commands
 lis = []
 for addr in conf.url_list:
-    File_Name = conf.Log_Directory + "\\" + "Log_" + addr + ".txt"
+    File_Name = conf.Log_Directory + '/' + "Log_" + addr + ".txt"
     if platform == "linux" or platform == "linux2":
         ping_cmd = "ping " + addr + "|./Requirements/TimeStamp.sh|tee " + File_Name
     elif platform == "win32":
@@ -22,13 +22,13 @@ for addr in conf.url_list:
     lis.append(ping_cmd)
 
 # Pinging GW and the websites
-cf.execution(lis)
+cf.command_execution(lis)
 
 # Exexcuting ipref commands
-cf.execution(conf.iperf_list)
+cf.command_execution(conf.iperf_list)
 
 # Opening VLC given VLC in Environ Path
-cf.execution([conf.vlc_command])
+cf.command_execution([conf.vlc_command])
 
 # Opening youtube
 cf.openBrowser(conf.web_url_list, conf.browsercode)

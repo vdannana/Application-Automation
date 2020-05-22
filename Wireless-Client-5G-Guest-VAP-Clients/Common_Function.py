@@ -7,6 +7,11 @@ from sys import platform
 from utorrentapi import UTorrentAPI
 from utorrentapi import TorrentListInfo
 
+
+'''
+command_exection funtion execute windows commands in a new command prompt window
+input arugumenet cmd_list is list of command to be executed.
+'''
 def execution(cmd_list):
     for i in cmd_list:
         print(i)
@@ -15,6 +20,16 @@ def execution(cmd_list):
         print(p_staus)
     return(True)
 
+
+'''
+    openBrowser function open web sites in a browser
+    The argumntes
+    sitelist takes list of site urls
+    browsercode takes a integer which represents a specific browser
+        ex: 0 for Chrome
+            1 for Firefox
+            other values open Internet Explorer 
+'''
 def openBrowser(sitelist, browsercode):
     if browsercode == '0':
         if platform == "linux" or platform == "linux2":
@@ -71,6 +86,11 @@ def openBrowser(sitelist, browsercode):
             print(format(site))
     return(True)
 
+
+''' 
+    torrentHandler function open utorrent client and add torrent files.
+    The argumnte torrent_lst takes list of torrent file paths.
+'''
 def torrentHandler(torrent_lst):
     if(os.path.isfile(conf.utorrent_path)):
         subprocess.Popen([conf.utorrent_path])
@@ -84,7 +104,7 @@ def torrentHandler(torrent_lst):
         apiclient.removedata(i.hash)
         print('Torrent ' + i.name + ' is removed')
     for item in torrent_lst:
-        if(os.path.isfile(item):
+        if(os.path.isfile(item)):
             apiclient.add_file(item)
         else:
             print('Torrent file ' + item + ' is not found on your machine')
