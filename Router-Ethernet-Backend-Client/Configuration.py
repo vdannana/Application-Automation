@@ -1,3 +1,5 @@
+from sys import platform
+
 Log_Directory = "Build_Version"
 url_list = ["192.168.1.1", "www.google.com", "www.yahoo.com"]
 ping_packets = "6000"
@@ -9,8 +11,11 @@ iperf_list = ["iperf -s -i 1 -w 512K",
 # Please specifie path to the video.
 # Linux File path Syntax file:///path/file
 # Windows File path Syntax C:\\sample.mkv
-vlc_file_path = "file:///home/venkat/Documents/GitHub/sample.mp4"
-vlc_command = "vlc -vvv --loop " + vlc_file_path + " --sout '#transcode{vcodec=hevc,acodec=mpga,ab=128,channels=2,samplerate=44100,scodec=none}:duplicate{dst=rtp{dst=239.0.0.1,port=5004,mux=ts},dst=display}' :sout-all :sout-keep"
+vlc_file_path = "file:////home/venkat/Videos/sample.mkv"
+if platform == "linux" or platform == "linux2":
+    vlc_command = "vlc -vvv --loop " + vlc_file_path + " --sout '#transcode{vcodec=h264,acodec=mpga,ab=128,channels=2,samplerate=44100,scodec=none}:duplicate{dst=rtp{dst=239.0.0.1,port=5004,mux=ts},dst=display}' :sout-all :sout-keep"
+elif platform == "win32":
+    vlc_command = "vlc -vvv --loop " + vlc_file_path + " --sout #transcode{vcodec=h264,acodec=mpga,ab=128,channels=2,samplerate=44100,scodec=none}:duplicate{dst=rtp{dst=239.0.0.1,port=5004,mux=ts},dst=display} :sout-all :sout-keep"
 web_url_list = ["https://www.youtube.com/watch?v=xT2ZOZhn5yQ"]
 browsercode = 1
 chrome_path = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"

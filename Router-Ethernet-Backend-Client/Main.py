@@ -25,10 +25,10 @@ for addr in conf.url_list:
 cf.command_execution(lis)
 
 # Exexcuting ipref commands
-#cf.command_execution(conf.iperf_list)
+cf.command_execution(conf.iperf_list)
 
 # Opening VLC given VLC in Environ Path
-#cf.command_execution([conf.vlc_command])
+cf.command_execution([conf.vlc_command])
 
 # Opening youtube
-#cf.openBrowser(conf.web_url_list, conf.browsercode)
+cf.openBrowser(conf.web_url_list, conf.browsercode)
