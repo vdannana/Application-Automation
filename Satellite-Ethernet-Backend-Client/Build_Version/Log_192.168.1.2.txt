@@ -1,0 +1,61 @@
+
+
+
+This is hrPING v5.07.1148 by cFos Software GmbH -- http://www.cfos.de
+
+2020-05-26 18:53:53.531: -n 6000 -T -F Build_Version/Log_192.168.1.2.txt 192.168.1.2
+Source address is 192.168.1.2; using ICMP echo-request, ID=7c11
+Pinging 192.168.1.2 [192.168.1.2]
+with 32 bytes data (60 bytes IP):
+
+setsockopt IP_HDRINCL failed: Error 10013: An attempt was made to access a socket in a way forbidden by its access permissions.
+2020-05-26 18:53:53.888: From 192.168.1.2: bytes=60 seq=0001 TTL=128 ID=cb77 time=1.523ms
+2020-05-26 18:53:54.390: From 192.168.1.2: bytes=60 seq=0002 TTL=128 ID=cb79 time=0.635ms
+2020-05-26 18:53:54.893: From 192.168.1.2: bytes=60 seq=0003 TTL=128 ID=cb7b time=0.324ms
+2020-05-26 18:53:55.392: From 192.168.1.2: bytes=60 seq=0004 TTL=128 ID=cb7d time=0.326ms
+2020-05-26 18:53:57.301: From 192.168.1.2: bytes=60 seq=0005 TTL=128 ID=cb91 time=0.259ms
+2020-05-26 18:53:57.468: From 192.168.1.2: bytes=60 seq=0006 TTL=128 ID=cb9b time=0.330ms
+2020-05-26 18:53:57.485: From 192.168.1.2: bytes=60 seq=0007 TTL=128 ID=cba1 time=0.266ms
+2020-05-26 18:53:57.486: From 192.168.1.2: bytes=60 seq=0008 TTL=128 ID=cba3 time=0.913ms
+2020-05-26 18:53:58.778: From 192.168.1.2: bytes=60 seq=0009 TTL=128 ID=cc07 time=0.277ms
+2020-05-26 18:53:59.050: From 192.168.1.2: bytes=60 seq=000a TTL=128 ID=cc21 time=0.270ms
+2020-05-26 18:53:59.053: From 192.168.1.2: bytes=60 seq=000b TTL=128 ID=cc23 time=0.300ms
+2020-05-26 18:53:59.677: From 192.168.1.2: bytes=60 seq=000c TTL=128 ID=cc69 time=0.230ms
+2020-05-26 18:53:59.892: From 192.168.1.2: bytes=60 seq=000d TTL=128 ID=cc7b time=0.316ms
+2020-05-26 18:54:00.441: From 192.168.1.2: bytes=60 seq=000e TTL=128 ID=cc93 time=0.262ms
+2020-05-26 18:54:00.891: From 192.168.1.2: bytes=60 seq=000f TTL=128 ID=cc95 time=0.359ms
+2020-05-26 18:54:01.388: From 192.168.1.2: bytes=60 seq=0010 TTL=128 ID=cc97 time=0.344ms
+2020-05-26 18:54:01.891: From 192.168.1.2: bytes=60 seq=0011 TTL=128 ID=cc99 time=0.273ms
+2020-05-26 18:54:02.389: From 192.168.1.2: bytes=60 seq=0012 TTL=128 ID=cc9b time=0.269ms
+2020-05-26 18:54:02.888: From 192.168.1.2: bytes=60 seq=0013 TTL=128 ID=cc9d time=0.258ms
+2020-05-26 18:54:03.390: From 192.168.1.2: bytes=60 seq=0014 TTL=128 ID=cc9f time=0.355ms
+2020-05-26 18:54:04.045: From 192.168.1.2: bytes=60 seq=0015 TTL=128 ID=cca1 time=0.268ms
+2020-05-26 18:54:04.397: From 192.168.1.2: bytes=60 seq=0016 TTL=128 ID=cca3 time=0.359ms
+2020-05-26 18:54:04.887: From 192.168.1.2: bytes=60 seq=0017 TTL=128 ID=cca5 time=0.581ms
+2020-05-26 18:54:05.389: From 192.168.1.2: bytes=60 seq=0018 TTL=128 ID=cca7 time=0.337ms
+2020-05-26 18:54:05.888: From 192.168.1.2: bytes=60 seq=0019 TTL=128 ID=cca9 time=0.766ms
+2020-05-26 18:54:06.388: From 192.168.1.2: bytes=60 seq=001a TTL=128 ID=ccab time=0.830ms
+2020-05-26 18:54:06.887: From 192.168.1.2: bytes=60 seq=001b TTL=128 ID=ccad time=0.752ms
+2020-05-26 18:54:07.388: From 192.168.1.2: bytes=60 seq=001c TTL=128 ID=ccaf time=0.831ms
+2020-05-26 18:54:07.889: From 192.168.1.2: bytes=60 seq=001d TTL=128 ID=ccb1 time=1.501ms
+2020-05-26 18:54:08.389: From 192.168.1.2: bytes=60 seq=001e TTL=128 ID=ccb3 time=1.166ms
+2020-05-26 18:54:08.890: From 192.168.1.2: bytes=60 seq=001f TTL=128 ID=ccb5 time=0.942ms
+2020-05-26 18:54:09.389: From 192.168.1.2: bytes=60 seq=0020 TTL=128 ID=ccb7 time=0.414ms
+2020-05-26 18:54:09.889: From 192.168.1.2: bytes=60 seq=0021 TTL=128 ID=ccb9 time=0.749ms
+2020-05-26 18:54:10.389: From 192.168.1.2: bytes=60 seq=0022 TTL=128 ID=ccbb time=0.859ms
+2020-05-26 18:54:10.889: From 192.168.1.2: bytes=60 seq=0023 TTL=128 ID=ccbd time=0.482ms
+2020-05-26 18:54:11.389: From 192.168.1.2: bytes=60 seq=0024 TTL=128 ID=ccbf time=1.242ms
+2020-05-26 18:54:11.889: From 192.168.1.2: bytes=60 seq=0025 TTL=128 ID=ccc1 time=1.016ms
+2020-05-26 18:54:12.388: From 192.168.1.2: bytes=60 seq=0026 TTL=128 ID=ccc3 time=0.361ms
+2020-05-26 18:54:12.890: From 192.168.1.2: bytes=60 seq=0027 TTL=128 ID=ccc5 time=0.315ms
+2020-05-26 18:54:13.389: From 192.168.1.2: bytes=60 seq=0028 TTL=128 ID=ccc7 time=0.901ms
+2020-05-26 18:54:13.890: From 192.168.1.2: bytes=60 seq=0029 TTL=128 ID=ccc9 time=0.561ms
+2020-05-26 18:54:14.389: From 192.168.1.2: bytes=60 seq=002a TTL=128 ID=cccb time=0.934ms
+2020-05-26 18:54:14.888: From 192.168.1.2: bytes=60 seq=002b TTL=128 ID=cccd time=0.715ms
+2020-05-26 18:54:15.387: From 192.168.1.2: bytes=60 seq=002c TTL=128 ID=cccf time=0.765ms
+2020-05-26 18:54:15.888: From 192.168.1.2: bytes=60 seq=002d TTL=128 ID=ccd1 time=0.283ms
+2020-05-26 18:54:16.390: From 192.168.1.2: bytes=60 seq=002e TTL=128 ID=ccd3 time=1.092ms
+2020-05-26 18:54:16.889: From 192.168.1.2: bytes=60 seq=002f TTL=128 ID=ccd5 time=1.248ms
+2020-05-26 18:54:17.390: From 192.168.1.2: bytes=60 seq=0030 TTL=128 ID=ccd7 time=1.058ms
+2020-05-26 18:54:17.889: From 192.168.1.2: bytes=60 seq=0031 TTL=128 ID=ccd9 time=0.422ms
+2020-05-26 18:54:18.387: From 192.168.1.2: bytes=60 seq=0032 TTL=128 ID=ccdb time=0.477ms

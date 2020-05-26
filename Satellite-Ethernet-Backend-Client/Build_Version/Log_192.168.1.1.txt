@@ -8,3 +8,67 @@ PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data. | 2020-05-22 13:03:58.59170
 64 bytes from 192.168.1.1: icmp_seq=8 ttl=64 time=4.97 ms | 2020-05-22 13:04:05.603791
 64 bytes from 192.168.1.1: icmp_seq=9 ttl=64 time=1.97 ms | 2020-05-22 13:04:06.605144
 64 bytes from 192.168.1.1: icmp_seq=10 ttl=64 time=1.99 ms | 2020-05-22 13:04:07.606227
+
+
+
+This is hrPING v5.07.1148 by cFos Software GmbH -- http://www.cfos.de
+
+2020-05-26 18:53:53.430: -n 6000 -T -F Build_Version/Log_192.168.1.1.txt 192.168.1.1
+Source address is 192.168.1.2; using ICMP echo-request, ID=8c4a
+Pinging 192.168.1.1 [192.168.1.1]
+with 32 bytes data (60 bytes IP):
+
+setsockopt IP_HDRINCL failed: Error 10013: An attempt was made to access a socket in a way forbidden by its access permissions.
+2020-05-26 18:53:53.889: From 192.168.1.1: bytes=60 seq=0001 TTL=64 ID=4720 time=3.720ms
+2020-05-26 18:53:54.389: From 192.168.1.1: bytes=60 seq=0002 TTL=64 ID=474a time=2.966ms
+2020-05-26 18:53:54.893: From 192.168.1.1: bytes=60 seq=0003 TTL=64 ID=475a time=3.611ms
+2020-05-26 18:53:55.389: From 192.168.1.1: bytes=60 seq=0004 TTL=64 ID=475b time=3.356ms
+2020-05-26 18:53:57.303: From 192.168.1.1: bytes=60 seq=0005 TTL=64 ID=476a time=1.976ms
+2020-05-26 18:53:57.469: From 192.168.1.1: bytes=60 seq=0006 TTL=64 ID=4777 time=1.430ms
+2020-05-26 18:53:57.472: From 192.168.1.1: bytes=60 seq=0007 TTL=64 ID=4778 time=4.317ms
+2020-05-26 18:53:57.486: From 192.168.1.1: bytes=60 seq=0008 TTL=64 ID=4779 time=1.523ms
+2020-05-26 18:53:58.754: From 192.168.1.1: bytes=60 seq=0009 TTL=64 ID=47b6 time=1.486ms
+2020-05-26 18:53:58.755: From 192.168.1.1: bytes=60 seq=000a TTL=64 ID=47b7 time=1.881ms
+2020-05-26 18:53:59.054: From 192.168.1.1: bytes=60 seq=000b TTL=64 ID=47c4 time=2.429ms
+2020-05-26 18:53:59.678: From 192.168.1.1: bytes=60 seq=000c TTL=64 ID=47db time=2.068ms
+2020-05-26 18:53:59.890: From 192.168.1.1: bytes=60 seq=000d TTL=64 ID=47e6 time=2.168ms
+2020-05-26 18:54:00.423: From 192.168.1.1: bytes=60 seq=000e TTL=64 ID=480d time=2.175ms
+2020-05-26 18:54:00.889: From 192.168.1.1: bytes=60 seq=000f TTL=64 ID=4829 time=2.059ms
+2020-05-26 18:54:01.387: From 192.168.1.1: bytes=60 seq=0010 TTL=64 ID=4854 time=1.754ms
+2020-05-26 18:54:01.896: From 192.168.1.1: bytes=60 seq=0011 TTL=64 ID=4867 time=4.690ms
+2020-05-26 18:54:02.388: From 192.168.1.1: bytes=60 seq=0012 TTL=64 ID=4872 time=1.567ms
+2020-05-26 18:54:02.890: From 192.168.1.1: bytes=60 seq=0013 TTL=64 ID=487e time=1.638ms
+2020-05-26 18:54:03.390: From 192.168.1.1: bytes=60 seq=0014 TTL=64 ID=4880 time=3.865ms
+2020-05-26 18:54:04.012: From 192.168.1.1: bytes=60 seq=0015 TTL=64 ID=4885 time=2.390ms
+2020-05-26 18:54:04.388: From 192.168.1.1: bytes=60 seq=0016 TTL=64 ID=4896 time=2.305ms
+2020-05-26 18:54:04.889: From 192.168.1.1: bytes=60 seq=0017 TTL=64 ID=48b6 time=2.031ms
+2020-05-26 18:54:05.388: From 192.168.1.1: bytes=60 seq=0018 TTL=64 ID=48d3 time=1.392ms
+2020-05-26 18:54:05.890: From 192.168.1.1: bytes=60 seq=0019 TTL=64 ID=48e1 time=3.338ms
+2020-05-26 18:54:06.388: From 192.168.1.1: bytes=60 seq=001a TTL=64 ID=48ef time=2.412ms
+2020-05-26 18:54:06.888: From 192.168.1.1: bytes=60 seq=001b TTL=64 ID=4902 time=2.100ms
+2020-05-26 18:54:07.388: From 192.168.1.1: bytes=60 seq=001c TTL=64 ID=491e time=2.118ms
+2020-05-26 18:54:07.889: From 192.168.1.1: bytes=60 seq=001d TTL=64 ID=4938 time=3.216ms
+2020-05-26 18:54:08.389: From 192.168.1.1: bytes=60 seq=001e TTL=64 ID=4968 time=3.054ms
+2020-05-26 18:54:08.888: From 192.168.1.1: bytes=60 seq=001f TTL=64 ID=498a time=2.447ms
+2020-05-26 18:54:09.388: From 192.168.1.1: bytes=60 seq=0020 TTL=64 ID=49ab time=1.744ms
+2020-05-26 18:54:09.890: From 192.168.1.1: bytes=60 seq=0021 TTL=64 ID=49ca time=3.433ms
+2020-05-26 18:54:10.390: From 192.168.1.1: bytes=60 seq=0022 TTL=64 ID=49d0 time=3.046ms
+2020-05-26 18:54:10.887: From 192.168.1.1: bytes=60 seq=0023 TTL=64 ID=49fb time=1.845ms
+2020-05-26 18:54:11.389: From 192.168.1.1: bytes=60 seq=0024 TTL=64 ID=49ff time=3.178ms
+2020-05-26 18:54:11.890: From 192.168.1.1: bytes=60 seq=0025 TTL=64 ID=4a24 time=3.112ms
+2020-05-26 18:54:12.387: From 192.168.1.1: bytes=60 seq=0026 TTL=64 ID=4a46 time=1.468ms
+2020-05-26 18:54:12.892: From 192.168.1.1: bytes=60 seq=0027 TTL=64 ID=4a72 time=1.993ms
+2020-05-26 18:54:13.388: From 192.168.1.1: bytes=60 seq=0028 TTL=64 ID=4a7d time=2.700ms
+2020-05-26 18:54:13.891: From 192.168.1.1: bytes=60 seq=0029 TTL=64 ID=4a8c time=2.274ms
+2020-05-26 18:54:14.389: From 192.168.1.1: bytes=60 seq=002a TTL=64 ID=4a9a time=2.749ms
+2020-05-26 18:54:14.890: From 192.168.1.1: bytes=60 seq=002b TTL=64 ID=4ab6 time=3.210ms
+2020-05-26 18:54:15.388: From 192.168.1.1: bytes=60 seq=002c TTL=64 ID=4ae1 time=2.527ms
+2020-05-26 18:54:15.889: From 192.168.1.1: bytes=60 seq=002d TTL=64 ID=4ae7 time=1.852ms
+2020-05-26 18:54:16.390: From 192.168.1.1: bytes=60 seq=002e TTL=64 ID=4b04 time=3.203ms
+2020-05-26 18:54:16.889: From 192.168.1.1: bytes=60 seq=002f TTL=64 ID=4b09 time=3.108ms
+2020-05-26 18:54:17.390: From 192.168.1.1: bytes=60 seq=0030 TTL=64 ID=4b23 time=3.061ms
+2020-05-26 18:54:17.889: From 192.168.1.1: bytes=60 seq=0031 TTL=64 ID=4b3f time=1.849ms
+2020-05-26 18:54:18.388: From 192.168.1.1: bytes=60 seq=0032 TTL=64 ID=4b53 time=2.088ms
+2020-05-26 18:54:18.888: From 192.168.1.1: bytes=60 seq=0033 TTL=64 ID=4b68 time=2.427ms
+2020-05-26 18:54:19.389: From 192.168.1.1: bytes=60 seq=0034 TTL=64 ID=4b7f time=2.888ms
+2020-05-26 18:54:19.889: From 192.168.1.1: bytes=60 seq=0035 TTL=64 ID=4bad time=2.548ms

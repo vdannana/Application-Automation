@@ -1,0 +1,34 @@
+
+
+
+This is hrPING v5.07.1148 by cFos Software GmbH -- http://www.cfos.de
+
+2020-05-26 18:55:24.896: -n 6000 -T -F Build_Version\Log_www.yahoo.com.txt www.yahoo.com
+Source address is 192.168.1.2; using ICMP echo-request, ID=a44b
+Pinging www.yahoo.com [106.10.250.10]
+with 32 bytes data (60 bytes IP):
+
+setsockopt IP_HDRINCL failed: Error 10013: An attempt was made to access a socket in a way forbidden by its access permissions.
+2020-05-26 18:55:24.979: From 106.10.250.10: bytes=60 seq=0001 TTL=56 ID=9810 time=45.151ms
+2020-05-26 18:55:27.220: From 106.10.250.10: bytes=60 seq=0002 TTL=56 ID=7216 time=45.773ms
+2020-05-26 18:55:27.221: From 106.10.250.10: bytes=60 seq=0003 TTL=56 ID=7416 time=45.780ms
+2020-05-26 18:55:27.245: From 106.10.250.10: bytes=60 seq=0004 TTL=56 ID=8216 time=45.508ms
+2020-05-26 18:55:27.245: From 106.10.250.10: bytes=60 seq=0005 TTL=56 ID=8316 time=45.290ms
+2020-05-26 18:55:27.509: From 106.10.250.10: bytes=60 seq=0006 TTL=56 ID=3517 time=46.349ms
+2020-05-26 18:55:29.906: From 106.10.250.10: bytes=60 seq=0007 TTL=56 ID=b01d time=45.262ms
+2020-05-26 18:55:29.906: From 106.10.250.10: bytes=60 seq=0008 TTL=56 ID=b11d time=44.989ms
+2020-05-26 18:55:29.906: From 106.10.250.10: bytes=60 seq=0009 TTL=56 ID=b21d time=44.874ms
+2020-05-26 18:55:29.906: From 106.10.250.10: bytes=60 seq=000a TTL=56 ID=b31d time=44.809ms
+2020-05-26 18:55:29.984: From 106.10.250.10: bytes=60 seq=000b TTL=56 ID=dd1d time=46.013ms
+2020-05-26 18:55:30.576: From 106.10.250.10: bytes=60 seq=000c TTL=56 ID=501f time=45.341ms
+2020-05-26 18:55:30.980: From 106.10.250.10: bytes=60 seq=000d TTL=56 ID=5920 time=44.816ms
+2020-05-26 18:55:33.700: From 106.10.250.10: bytes=60 seq=000e TTL=56 ID=b527 time=45.739ms
+2020-05-26 18:55:33.700: From 106.10.250.10: bytes=60 seq=000f TTL=56 ID=b627 time=45.372ms
+2020-05-26 18:55:33.700: From 106.10.250.10: bytes=60 seq=0010 TTL=56 ID=b727 time=45.202ms
+2020-05-26 18:55:33.704: From 106.10.250.10: bytes=60 seq=0011 TTL=56 ID=ba27 time=44.499ms
+2020-05-26 18:55:34.149: From 106.10.250.10: bytes=60 seq=0012 TTL=56 ID=0329 time=47.231ms
+2020-05-26 18:55:34.176: From 106.10.250.10: bytes=60 seq=0013 TTL=56 ID=1329 time=44.987ms
+2020-05-26 18:55:34.485: From 106.10.250.10: bytes=60 seq=0014 TTL=56 ID=d929 time=47.911ms
+2020-05-26 18:55:34.988: From 106.10.250.10: bytes=60 seq=0015 TTL=56 ID=4f2b time=45.032ms
+2020-05-26 18:55:35.479: From 106.10.250.10: bytes=60 seq=0016 TTL=56 ID=b32c time=45.124ms
+2020-05-26 18:55:35.981: From 106.10.250.10: bytes=60 seq=0017 TTL=56 ID=0b2e time=46.083ms

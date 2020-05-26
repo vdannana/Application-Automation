@@ -27,7 +27,7 @@ cf.execution(conf.iperf_list)
 cf.execution([conf.vlc_command])
 
 # Opening youtube
-cf.openBrowser(conf.web_url_list, conf.browsercode)
+cf.openBrowser(conf.Youtube_url_list, conf.browsercode)
 
 # Opening UTorrent
 cf.torrentHandler(conf.torrentFiles)

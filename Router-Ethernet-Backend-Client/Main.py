@@ -31,4 +31,4 @@ cf.command_execution(conf.iperf_list)
 cf.command_execution([conf.vlc_command])
 
 # Opening youtube
-cf.openBrowser(conf.web_url_list, conf.browsercode)
+cf.openBrowser(conf.Youtube_url_list, conf.browsercode)

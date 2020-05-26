@@ -7,3 +7,79 @@ PING new-fp-shed.wg1.b.yahoo.com (106.10.250.10) 56(84) bytes of data. | 2020-05
 64 bytes from media-router-fp1.prod1.media.vip.sg3.yahoo.com (106.10.250.10): icmp_seq=6 ttl=56 time=45.8 ms | 2020-05-22 12:23:02.094854
 64 bytes from media-router-fp1.prod1.media.vip.sg3.yahoo.com (106.10.250.10): icmp_seq=7 ttl=56 time=46.5 ms | 2020-05-22 12:23:03.097155
 64 bytes from media-router-fp1.prod1.media.vip.sg3.yahoo.com (106.10.250.10): icmp_seq=8 ttl=56 time=48.0 ms | 2020-05-22 12:23:04.103865
+
+
+
+This is hrPING v5.07.1148 by cFos Software GmbH -- http://www.cfos.de
+
+2020-05-26 18:53:08.162: -n 6000 -T -F Build_Version/Log_www.yahoo.com.txt www.yahoo.com
+Source address is 192.168.1.2; using ICMP echo-request, ID=d037
+Pinging www.yahoo.com [106.10.250.10]
+with 32 bytes data (60 bytes IP):
+
+setsockopt IP_HDRINCL failed: Error 10013: An attempt was made to access a socket in a way forbidden by its access permissions.
+2020-05-26 18:53:08.847: From 106.10.250.10: bytes=60 seq=0001 TTL=56 ID=7b9e time=637.451ms
+2020-05-26 18:53:09.255: From 106.10.250.10: bytes=60 SEQ=0003 TTL=56 ID=989f time=44.434ms
+2020-05-26 18:53:09.765: From 106.10.250.10: bytes=60 seq=0004 TTL=56 ID=0ba1 time=44.965ms
+2020-05-26 18:53:10.408: From 106.10.250.10: bytes=60 seq=0005 TTL=56 ID=c5a2 time=45.759ms
+2020-05-26 18:53:10.762: From 106.10.250.10: bytes=60 seq=0006 TTL=56 ID=b4a3 time=46.723ms
+2020-05-26 18:53:11.771: Timeout waiting for seq=0002
+2020-05-26 18:53:11.821: From 106.10.250.10: bytes=60 seq=0007 TTL=56 ID=a8a6 time=45.358ms
+2020-05-26 18:53:11.822: From 106.10.250.10: bytes=60 seq=0008 TTL=56 ID=a9a6 time=45.976ms
+2020-05-26 18:53:12.256: From 106.10.250.10: bytes=60 seq=0009 TTL=56 ID=a1a7 time=45.115ms
+2020-05-26 18:53:12.755: From 106.10.250.10: bytes=60 seq=000a TTL=56 ID=f2a8 time=44.777ms
+2020-05-26 18:53:13.259: From 106.10.250.10: bytes=60 seq=000b TTL=56 ID=2caa time=44.708ms
+2020-05-26 18:53:13.758: From 106.10.250.10: bytes=60 seq=000c TTL=56 ID=77ab time=45.735ms
+2020-05-26 18:53:14.445: From 106.10.250.10: bytes=60 seq=000d TTL=56 ID=6cad time=45.198ms
+2020-05-26 18:53:14.756: From 106.10.250.10: bytes=60 seq=000e TTL=56 ID=50ae time=45.162ms
+2020-05-26 18:53:15.390: From 106.10.250.10: bytes=60 seq=000f TTL=56 ID=18b0 time=44.712ms
+2020-05-26 18:53:17.003: From 106.10.250.10: bytes=60 seq=0010 TTL=56 ID=9eb4 time=45.326ms
+2020-05-26 18:53:17.004: From 106.10.250.10: bytes=60 seq=0011 TTL=56 ID=9fb4 time=46.216ms
+2020-05-26 18:53:17.004: From 106.10.250.10: bytes=60 seq=0012 TTL=56 ID=a1b4 time=46.076ms
+2020-05-26 18:53:17.256: From 106.10.250.10: bytes=60 seq=0013 TTL=56 ID=6fb5 time=45.728ms
+2020-05-26 18:53:17.756: From 106.10.250.10: bytes=60 seq=0014 TTL=56 ID=e3b6 time=44.446ms
+2020-05-26 18:53:18.257: From 106.10.250.10: bytes=60 seq=0015 TTL=56 ID=3bb8 time=44.990ms
+2020-05-26 18:53:18.755: From 106.10.250.10: bytes=60 seq=0016 TTL=56 ID=aab9 time=44.630ms
+2020-05-26 18:53:19.256: From 106.10.250.10: bytes=60 seq=0017 TTL=56 ID=0fbb time=44.630ms
+2020-05-26 18:53:19.759: From 106.10.250.10: bytes=60 seq=0018 TTL=56 ID=61bc time=47.046ms
+2020-05-26 18:53:20.258: From 106.10.250.10: bytes=60 seq=0019 TTL=56 ID=acbd time=44.864ms
+2020-05-26 18:53:20.755: From 106.10.250.10: bytes=60 seq=001a TTL=56 ID=f1be time=44.790ms
+2020-05-26 18:53:21.336: From 106.10.250.10: bytes=60 seq=001b TTL=56 ID=8fc0 time=48.448ms
+2020-05-26 18:53:21.756: From 106.10.250.10: bytes=60 seq=001c TTL=56 ID=abc1 time=45.667ms
+2020-05-26 18:53:22.257: From 106.10.250.10: bytes=60 seq=001d TTL=56 ID=f8c2 time=45.379ms
+2020-05-26 18:53:22.756: From 106.10.250.10: bytes=60 seq=001e TTL=56 ID=44c4 time=44.346ms
+2020-05-26 18:53:23.256: From 106.10.250.10: bytes=60 seq=001f TTL=56 ID=7ec5 time=45.552ms
+2020-05-26 18:53:23.756: From 106.10.250.10: bytes=60 seq=0020 TTL=56 ID=dec6 time=45.431ms
+2020-05-26 18:53:24.257: From 106.10.250.10: bytes=60 seq=0021 TTL=56 ID=51c8 time=45.876ms
+2020-05-26 18:53:24.757: From 106.10.250.10: bytes=60 seq=0022 TTL=56 ID=acc9 time=45.371ms
+2020-05-26 18:53:25.257: From 106.10.250.10: bytes=60 seq=0023 TTL=56 ID=1ccb time=45.874ms
+2020-05-26 18:53:25.757: From 106.10.250.10: bytes=60 seq=0024 TTL=56 ID=98cc time=45.924ms
+2020-05-26 18:53:26.256: From 106.10.250.10: bytes=60 seq=0025 TTL=56 ID=f6cd time=45.432ms
+2020-05-26 18:53:26.757: From 106.10.250.10: bytes=60 seq=0026 TTL=56 ID=44cf time=45.626ms
+2020-05-26 18:53:27.258: From 106.10.250.10: bytes=60 seq=0027 TTL=56 ID=a6d0 time=45.495ms
+2020-05-26 18:53:27.755: From 106.10.250.10: bytes=60 seq=0028 TTL=56 ID=f2d1 time=44.467ms
+2020-05-26 18:53:28.257: From 106.10.250.10: bytes=60 seq=0029 TTL=56 ID=26d3 time=45.782ms
+2020-05-26 18:53:28.756: From 106.10.250.10: bytes=60 seq=002a TTL=56 ID=75d4 time=45.174ms
+2020-05-26 18:53:29.257: From 106.10.250.10: bytes=60 seq=002b TTL=56 ID=bed5 time=45.779ms
+2020-05-26 18:53:29.755: From 106.10.250.10: bytes=60 seq=002c TTL=56 ID=26d7 time=44.842ms
+2020-05-26 18:53:30.256: From 106.10.250.10: bytes=60 seq=002d TTL=56 ID=60d8 time=45.780ms
+2020-05-26 18:53:30.757: From 106.10.250.10: bytes=60 seq=002e TTL=56 ID=b7d9 time=45.610ms
+2020-05-26 18:53:31.257: From 106.10.250.10: bytes=60 seq=002f TTL=56 ID=08db time=46.104ms
+2020-05-26 18:53:31.758: From 106.10.250.10: bytes=60 seq=0030 TTL=56 ID=63dc time=46.222ms
+2020-05-26 18:53:32.257: From 106.10.250.10: bytes=60 seq=0031 TTL=56 ID=bcdd time=45.510ms
+2020-05-26 18:53:32.766: From 106.10.250.10: bytes=60 seq=0032 TTL=56 ID=05df time=56.004ms
+2020-05-26 18:53:33.256: From 106.10.250.10: bytes=60 seq=0033 TTL=56 ID=4ce0 time=45.350ms
+2020-05-26 18:53:33.757: From 106.10.250.10: bytes=60 seq=0034 TTL=56 ID=b0e1 time=45.805ms
+2020-05-26 18:53:34.259: From 106.10.250.10: bytes=60 seq=0035 TTL=56 ID=fde2 time=44.966ms
+2020-05-26 18:53:34.756: From 106.10.250.10: bytes=60 seq=0036 TTL=56 ID=4ce4 time=45.634ms
+2020-05-26 18:53:35.256: From 106.10.250.10: bytes=60 seq=0037 TTL=56 ID=a7e5 time=45.767ms
+2020-05-26 18:53:35.756: From 106.10.250.10: bytes=60 seq=0038 TTL=56 ID=14e7 time=45.197ms
+2020-05-26 18:53:36.257: From 106.10.250.10: bytes=60 seq=0039 TTL=56 ID=54e8 time=45.805ms
+2020-05-26 18:53:36.756: From 106.10.250.10: bytes=60 seq=003a TTL=56 ID=a9e9 time=45.980ms
+2020-05-26 18:53:37.257: From 106.10.250.10: bytes=60 seq=003b TTL=56 ID=feea time=45.943ms
+2020-05-26 18:53:37.757: From 106.10.250.10: bytes=60 seq=003c TTL=56 ID=65ec time=45.899ms
+2020-05-26 18:53:38.257: From 106.10.250.10: bytes=60 seq=003d TTL=56 ID=a3ed time=45.718ms
+2020-05-26 18:53:38.758: From 106.10.250.10: bytes=60 seq=003e TTL=56 ID=1aef time=46.265ms
+2020-05-26 18:53:39.256: From 106.10.250.10: bytes=60 seq=003f TTL=56 ID=5bf0 time=45.829ms
+2020-05-26 18:53:39.758: From 106.10.250.10: bytes=60 seq=0040 TTL=56 ID=b1f1 time=47.314ms
+2020-05-26 18:53:40.256: From 106.10.250.10: bytes=60 seq=0041 TTL=56 ID=f6f2 time=45.387ms
